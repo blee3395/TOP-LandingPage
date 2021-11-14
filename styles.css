@@ -1,0 +1,188 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Varela Round', sans-serif;;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: auto;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    gap: 24px;
+}
+
+.headerLogo {
+    color: #F9FAF8;
+    font-size: 24px; 
+}
+
+.HLink1 {
+    margin-left: auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    padding-top: 150px; 
+    padding-bottom: 150px;
+
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 5%;
+    width: 50%;
+    gap: 12px;
+}
+
+.imgTop {
+    width: 50%;
+    height: auto;
+    text-align: center;
+
+    border: 3px solid white;
+
+}
+
+.top, .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.top, .subtitle {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.randomInfo {
+    display: flex;
+    justify-content: center;
+
+    font-size: 36px;
+    font-weight:700;
+    color: #1f2937;
+
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+    gap: 36px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+
+    width: 150px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    border-radius: 8px;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    padding-top: 75px; 
+    padding-bottom: 75px;
+}
+
+.ref {
+    font-size: 36px;
+}
+
+.auth{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+
+    padding-right: 10%;
+}
+
+.footer {
+    padding-right: 15%;
+    padding-left: 15%;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footerBox {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 24px; 
+
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    display: flex;
+    flex: row;
+    align-items: center;
+
+    border-radius: 16px;
+}
+
+.alerts {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.alert {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: white;
+    height: 36px;
+    width: 150px;
+}
+
+.signUpBottom {
+    margin-left: auto;
+    border: 2.5px solid white
+}
